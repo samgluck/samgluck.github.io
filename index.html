@@ -48,6 +48,7 @@
 		display: flex;
 		flex-direction: row;
 		justify-content: flex-start;
+		align-items: flex-start;
 		padding-left: 18%;
 	}
 	.fillercontainer {
@@ -70,7 +71,7 @@
 		width: 311px;
 		border: 0px;
 		margin-top: 10px;
-		margin-right: 8px;
+		margin-right: 7px;
 		outline: none;
 		font-size: 18px;
 		font: raleway, sans-serif;
@@ -104,10 +105,23 @@
 			<h2>Freshman is currently under construction. Want to be the first to know?</h2>
 			<h2>Sign up to get your first month free</h2>
 		</div>
-		<div class="emailcontainer">
-			<form>
-			<input class="emailfield" type="Email" name="Email">
-			<input class="button" type="submit" value="Sign Up Now">
+			<!-- Begin Mailchimp Signup Form -->
+			<link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
+			<style type="text/css">
+				#mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; width:300px;}
+				/* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.
+				   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+			</style>
+			<div class="emailcontainer">
+			<form action="https://getfreshman.us19.list-manage.com/subscribe/post?u=1229233a1b36495b3de6fc510&amp;id=6427a27ab5" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+				<input class="emailfield" type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
+			    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+			    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_1229233a1b36495b3de6fc510_6427a27ab5" tabindex="-1" value=""></div>
+			    <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button">
+			</form>
+			</div>
+
+<!--End mc_embed_signup-->					
 			</form>
 		</div>
 	</body>
